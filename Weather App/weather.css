@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Cinzel:wght@400;500&family=Red+Hat+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url('w2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgba(0 , 0,  0, .7);
+    height: 100vh;
+    color: white;
+}
+
+.content{
+    padding: 45px 50px !important;
+    transition: 0.3s ;
+    width: 340px;
+    opacity: 1;
+    position: absolute;
+    z-index: 1;
+}
+.header{
+    background-color: rgba(121, 121, 121, 0.3);
+    padding: 70px;
+    width: 550px;
+    border-radius: 20px;
+    margin-right: 50px;
+    transition: 0.8s;
+    z-index: 2;
+}
+
+.header h1{
+    font-size: 80px ;
+    color: orange;
+    text-shadow: 1px 2px rgba(0, 0, 0, 0.7);
+    margin-bottom: 50px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+/*maker-info*/
+/* .header h4{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    color: rgb(255, 255, 255,.7);
+} */
+
+.header input{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid white;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+.header input:focus{
+    border-bottom: 2px solid orangered;
+}
+
+.city{
+    font-size: 45px;
+    font-weight: 500px;
+    margin-bottom: 10px;
+    color: orange;
+    font-family: 'Caveat', cursive;
+}
+
+.temp{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.desc{
+    font-size: 25px;
+    font-style: italic;
+    color: orangered;
+    margin-bottom: 20px;
+    margin-top: -5px
+}
+
+.minMax{
+    font-size: 24px;
+    color: rgb(145, 145, 145);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+i{
+    margin-left: 10px;
+    color: rgb(231, 231, 231);
+}
+
+#coder {
+    position: absolute;
+    bottom: 25px;
+    text-align: center;
+    color: rgb(255,165,0,.7)
+}
